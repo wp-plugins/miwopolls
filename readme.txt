@@ -1,4 +1,4 @@
-=== MiwoPolls - WordPress Polls Simplified ===
+=== MiwoPolls - Polls & Voting Simplified ===
 Contributors: miwisoft
 Tags: poll, polls, polling, vote, votes, voting, survey, admin, plugin
 Donate link: http://miwisoft.com
