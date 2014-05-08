@@ -1,6 +1,6 @@
 === MiwoPolls - WordPress Polls Simplified ===
 Contributors: miwisoft
-Tags: poll, polls, polling, vote, votes, voting, survey, admin
+Tags: poll, polls, polling, vote, votes, voting, survey, admin, plugin
 Donate link: http://miwisoft.com
 Requires at least: 3.5
 Tested up to: 3.9
@@ -12,7 +12,9 @@ MiwoPolls is a simple and flexible plugin for voting. It displays the vote resul
 
 == Description ==
 
-MiwoPolls is a simple and flexible plugin for voting. It displays the vote results in 2 types, a nice pie chart or default table way. MiwoPolls offers you lots of options that makes it very flexible. You can add as much options as you want, choose different color for each option, re-order options as you want, set publish and unpublish dates for each poll, check votes per IP, cookies and user etc.
+MiwoPolls is a simple and flexible plugin for voting. It displays the vote results in 2 types, a nice pie chart or default table way.
+
+MiwoPolls offers you lots of options that makes it very flexible. You can add as much options as you want, choose different color for each option, re-order options as you want, set publish and unpublish dates for each poll, check votes per IP, cookies and user etc.
 
 = Features =
 
