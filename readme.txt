@@ -1,5 +1,5 @@
 === MiwoPolls - Polls & Voting Simplified ===
-Contributors: miwisoft
+Contributors: miwisoft, gilbertlici
 Tags: poll, polls, polling, vote, votes, voting, survey, admin, plugin
 Donate link: http://miwisoft.com
 Requires at least: 3.5
