@@ -3,10 +3,10 @@ Contributors: miwisoft, gilbertlici
 Tags: poll, polls, polling, vote, votes, voting, survey, admin, plugin
 Donate link: http://miwisoft.com
 Requires at least: 3.5
-Tested up to: 3.9
+Tested up to: 3.9.1
 Stable tag: trunk
-License: GPLv2
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 MiwoPolls is a simple and flexible plugin for voting. It displays the vote results in a nice pie chart or table way.
 
