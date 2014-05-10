@@ -42,7 +42,10 @@ Use the WordPress.org forums for community support. We cannot offer efficient su
 
 == Screenshots ==
 
-Screenshots are located in the following page: [http://miwisoft.com/miwopolls](http://miwisoft.com/wordpress-plugins/miwopolls-wordpress-polls-simplified#screenshots)
+1. **Admin** - Poll list.
+2. **Edit** - Poll create/edit.
+3. **Results** - Results in pie chart, front-end.
+4. **Results** - Results in table, front-end.
 
 == Installation ==
 
