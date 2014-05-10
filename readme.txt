@@ -43,7 +43,7 @@ Use the WordPress.org forums for community support. We cannot offer efficient su
 == Screenshots ==
 
 1. **Admin** - Poll list.
-2. **Edit** - Poll create/edit.
+2. **Edit** - Poll create and edit.
 3. **Results** - Results in pie chart, front-end.
 4. **Results** - Results in table, front-end.
 
