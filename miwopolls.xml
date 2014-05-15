@@ -2,12 +2,12 @@
 <install type="component" version="1.5.0" method="upgrade">
 	<name>MiwoPolls</name>
 	<author>Miwisoft LLC</author>
-	<creationDate>May 2014</creationDate>
+	<creationDate>October 2013</creationDate>
 	<authorEmail>info@miwisoft.com</authorEmail>
 	<authorUrl>http://miwisoft.com</authorUrl>
 	<copyright>Copyright (C) Miwisoft LLC, miwisoft.com</copyright>
 	<license>GNU/GPL, http://www.gnu.org/licenses/gpl-2.0.html</license>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<description>MiwoPolls is a simple and flexible component for voting. It shows vote results in 2 types, a nice pie chart or default Joomla way.</description>
 	
 	<files folder="site">

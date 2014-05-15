@@ -52,7 +52,6 @@ MHtml::_('behavior.formvalidation');
         <?php echo MHtml::_('tabs.end'); ?>
     </div>
     <div>
-        <input type="hidden" name="id" value="<?php echo $this->component->id; ?>"/>
         <input type="hidden" name="task" value=""/>
         <?php echo MHtml::_('form.token'); ?>
     </div>

@@ -9,7 +9,6 @@
 defined('MIWI') or die ('Restricted access');
 
 mimport('framework.installer.installer');
-mimport('framework.filesystem.file');
 
 class com_MiwopollsInstallerScript {
 
@@ -60,6 +59,12 @@ class com_MiwopollsInstallerScript {
         if (MFolder::copy(MPath::clean(MPATH_WP_PLG.'/miwopolls/plugins'), MPath::clean(MPATH_MIWI . '/plugins'), null, true)) {
             MFolder::delete(MPath::clean(MPATH_WP_PLG.'/miwopolls/plugins'));
         }
+
+		//@TODO Delete this code next version(Current Version 1.0.1)
+		if ($type == 'upgrade') {
+			return;
+		}
+		########
 
         if ($this->_is_new_installation == true) {
 			$this->_installMiwopolls();

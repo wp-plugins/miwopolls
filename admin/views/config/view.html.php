@@ -5,7 +5,7 @@
  * @license		GNU/GPL http://www.gnu.org/copyleft/gpl.html
  */
 # No Permission
-defined( '_MEXEC' ) or die ;
+defined('MIWI') or die;
 
 class MiwopollsViewConfig extends MiwopollsView {
 	

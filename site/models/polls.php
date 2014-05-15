@@ -5,7 +5,7 @@
 * @subpackage	MiwoPolls
 * @copyright	2009-2011 Miwisoft LLC, www.miwisoft.com
 * @license		GNU/GPL http://www.gnu.org/copyleft/gpl.html
-* @license		GNU/GPL based on AcePolls www.joomace.net
+
 *
 * Based on Apoll Component
 * @copyright (C) 2009 - 2011 Hristo Genev All rights reserved

@@ -35,5 +35,3 @@ $classname = 'MiwopollsController'.ucfirst($controller);
 $controller = new $classname();
 $controller->execute(MRequest::getCmd('task'));
 $controller->redirect();
-
-echo '<div style="margin: 10px; text-align: center;"><a style="text-decoration: none;" href="http://miwisoft.com/wordpress-plugins/miwopolls-wordpress-polls-simplified" target="_blank">MiwoPolls | Copyright &copy; 2009-2014 Miwisoft LLC</a></div>';

@@ -4,7 +4,7 @@ Plugin Name: MiwoPolls
 Plugin URI: http://miwisoft.com
 Description: MiwoPolls is a simple and flexible component for voting. It shows vote results in 2 types, a nice pie chart or default table style.
 Author: Miwisoft LLC
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://miwisoft.com
 Plugin URI: http://miwisoft.com/wordpress-plugins/miwopolls-wordpress-polls-simplified
 */

@@ -44,8 +44,9 @@ class MiwopollsController extends MiwisoftController {
 			$controller = MRequest::getVar('controller', 'polls');
 
 			if (isset($_GET['view']) and ($_GET['view'] == "config")){
-				$controller = MRequest::getVar('controller', 'config');
+			$controller = MRequest::getVar('controller', 'config');
 			}
+			
 		}
 		else {
 			$controller = MRequest::getVar('view', 'polls');

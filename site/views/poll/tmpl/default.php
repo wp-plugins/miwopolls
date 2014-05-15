@@ -5,7 +5,7 @@
 * @subpackage	MiwoPolls
 * @copyright	2009-2011 Miwisoft LLC, www.miwisoft.com
 * @license		GNU/GPL http://www.gnu.org/copyleft/gpl.html
-* @license		GNU/GPL based on AcePolls www.joomace.net
+
 *
 * Based on Apoll Component
 * @copyright (C) 2009 - 2011 Hristo Genev All rights reserved
@@ -166,7 +166,7 @@ if ($comments != 0) {
 	}
 	
 	if ($comments == 3 && file_exists($jxcomments)) {
-		$url = 'index.php?option=com_miwopolls&view=poll&id='.(int) $this->poll->id;
+		$url = '<?php echo MURL_ADMIN; ?>/admin-ajax.php?action=miwopolls&view=poll&id='.(int) $this->poll->id;
 		$route = $url.':'.$this->poll->alias.'&Itemid='.MRequest::getInt('Itemid');
 		
 		MHtml::addIncludePath(MPATH_SITE.'/components/com_comments/helpers/html');

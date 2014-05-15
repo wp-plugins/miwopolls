@@ -159,7 +159,7 @@ if ($comments != 0) {
 	}
 	
 	if ($comments == 3 && file_exists($jxcomments)) {
-		$url = 'index.php?option=com_miwopolls&view=poll&id='.(int) $this->poll->id;
+		$url = '<?php echo MURL_ADMIN; ?>/admin-ajax.php?action=miwopolls&view=poll&id='.(int) $this->poll->id;
 		$route = $url.':'.$this->poll->alias.'&Itemid='.MRequest::getInt('Itemid');
 		
 		MHtml::addIncludePath(MPATH_SITE.'/components/com_comments/helpers/html');

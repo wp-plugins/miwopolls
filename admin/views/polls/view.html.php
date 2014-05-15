@@ -5,7 +5,7 @@
 * @subpackage	MiwoPolls
 * @copyright	2009-2011 Miwisoft LLC, www.miwisoft.com
 * @license		GNU/GPL http://www.gnu.org/copyleft/gpl.html
-* @license		GNU/GPL based on AcePolls www.joomace.net
+
 *
 * Based on Apoll Component
 * @copyright (C) 2009 - 2011 Hristo Genev All rights reserved
@@ -30,13 +30,13 @@ class MiwopollsViewPolls extends MiwopollsView {
 
 
 
+
 		MToolBarHelper::preferences('com_miwopolls', 500);
 	
 		$this->mainframe = MFactory::getApplication();
 		$this->option = MRequest::getWord('option');
 
-		$filter_published		= $this->mainframe->getUserStateFromRequest($this->option.'.polls.filter_published',		'filter_published',		'',			'cmd');
-
+		$filter_published		= $this->mainframe->getUserStateFromRequest($this->option.'.polls.filter_published',		'filter_published',		'',			'cmd');	
 		$this->acl = MiwopollsHelper::get('acl');
 		$options = array();
 		$options[] = MHTML::_('select.option', '', MText::_('MOPTION_SELECT_PUBLISHED'));
