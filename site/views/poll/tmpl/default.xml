@@ -13,7 +13,7 @@
 	<state>
 		<name>Single Poll Layout</name>
 		<description>STANDARD POLL LAYOUT DESC</description>
-		<url addpath="/miwopolls/elements">
+		<url addpath="/miwopolls/admin/elements">
 			<param name="id" type="poll" default="0" label="COM_MIWOPOLLS_POLL" description="Select poll" />
 		</url>
 		<params />

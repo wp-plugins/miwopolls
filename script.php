@@ -175,7 +175,7 @@ class com_MiwopollsInstallerScript {
             wp_update_post($miwopolls_post);
         }
         else{
-            $miwopolls_post['post_title']    = 'Polls';
+            $miwopolls_post['post_title']    = 'Miwopolls';
             $miwopolls_post['post_content']  = $page_content;
             $miwopolls_post['post_status']   = 'publish';
             $miwopolls_post['post_author']   = 1;
