@@ -9,6 +9,7 @@
 defined('MIWI') or die ('Restricted access');
 
 mimport('framework.installer.installer');
+mimport('framework.filesystem.file');
 
 class com_MiwopollsInstallerScript {
 
@@ -182,6 +183,7 @@ class com_MiwopollsInstallerScript {
             $miwopolls_post['post_type']     = 'page';
             $miwopolls_post['comment_status']= 'closed';
 
+			
             $id = wp_insert_post($miwopolls_post);
             update_option('miwopolls_page_id',$id);
         }
