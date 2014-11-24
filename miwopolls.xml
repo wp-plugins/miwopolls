@@ -7,7 +7,7 @@
 	<authorUrl>http://miwisoft.com</authorUrl>
 	<copyright>Copyright (C) Miwisoft LLC, miwisoft.com</copyright>
 	<license>GNU/GPL, http://www.gnu.org/licenses/gpl-2.0.html</license>
-	<version>1.0.4</version>
+	<version>1.0.5</version>
 	<description>MiwoPolls is a simple and flexible component for voting. It shows vote results in 2 types, a nice pie chart or default Joomla way.</description>
 	
 	<files folder="site">
