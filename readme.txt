@@ -3,7 +3,7 @@ Contributors: miwisoft, gilbertlici
 Tags: poll, polls, polling, vote, votes, voting, survey, admin, plugin
 Donate link: http://miwisoft.com
 Requires at least: 3.5
-Tested up to: 4.0.1
+Tested up to: 4.1
 Stable tag: trunk
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
